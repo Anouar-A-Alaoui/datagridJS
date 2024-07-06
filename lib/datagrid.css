@@ -71,3 +71,15 @@ tr:hover {
     margin: 10px 0;
     text-align: right;
 }
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.selected-row {
+    background-color: #d3f4ff !important;
+}
