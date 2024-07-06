@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DataGrid Library Example</title>
+    <link rel="stylesheet" href="../lib/datagrid.css">
+</head>
+<body>
+
+<h2>Data Grid Library Example</h2>
+
+<div id="dataGridContainer"></div>
+ 
+<script src="../lib/datagrid.js"></script>
+<script>
+    // Sample data
+    const sampleData = [];
+    for (let i = 1; i <= 1000; i++) {
+        sampleData.push({ id: i, name: `Person ${i}`, age: Math.floor(Math.random() * 100), city: `City ${i}` });
+    }
+
+    // Column configuration
+    const columns = [
+        { key: 'select', label: 'Select', sortable: false, filterable: false },
+        { key: 'name', label: 'Name', sortable: true, filterable: true },
+        { key: 'age', label: 'Age', sortable: true, filterable: true },
+        { key: 'city', label: 'City', sortable: true, filterable: true },
+        { key: 'actions', label: 'Actions', sortable: false, filterable: false }
+    ];
+
+    // Create a new DataGrid instance
+    const dataGrid = new DataGrid('#dataGridContainer', sampleData, {
+        columns: columns,
+        rowsPerPage: 10,
+        selectAllPages: true
+    });
+</script>
+
+</body>
+</html>

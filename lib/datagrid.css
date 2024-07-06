@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+.pagination {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.pagination button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.search-box {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-box div {
+    display: flex;
+    align-items: center;
+}
+
+.search-box input, .search-box select {
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.action-btn {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+.column-select {
+    margin: 10px 0;
+}
+
+.column-select input {
+    margin-right: 5px;
+}
+
+.rows-per-page {
+    margin: 10px 0;
+    text-align: right;
+}
