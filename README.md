@@ -81,3 +81,92 @@ Configuration Options
 ## Contributing
 
 Contributions are welcome! Please submit a pull request or open an issue to discuss potential improvements.
+
+
+## Current Features
+
+### Display Large Sets of Data with Pagination:
+ - Efficiently handles large datasets by paginating the data.
+ - Supports changing the number of rows per page dynamically.
+
+### Sorting and Filtering on Each Column:
+ - Allows sorting data by any column.
+ - Provides filtering options for each column, including "contains", "equal", "notContains", and "empty".
+
+### Row Selection with "Select All" Option:
+ - Supports individual row selection with checkboxes.
+ - Includes a "Select All" checkbox to select or deselect all rows on the current page.
+
+### Column Visibility Toggling:
+ - Users can show or hide columns dynamically.
+ - Preferences are saved locally and restored on page load.
+
+### Row Reordering via Drag-and-Drop:
+ - Allows users to reorder rows by dragging and dropping.
+ - A drag handle (⠿) is provided for initiating row reordering.
+ - Reordering updates both the original and filtered data arrays.
+
+### Editing and Deleting Rows:
+ - Provides inline editing and deletion options for each row.
+ - Rows can be edited or deleted by clicking the respective action buttons.
+
+### Exporting Selected Rows:
+ - Supports exporting selected rows to various formats: CSV, JSON, XML, XLS, and XLSX.
+ - Ensures that only visible and selected columns are exported.
+
+### Importing Data:
+ - Allows importing data from JSON, XML, CSV, XLS, and XLSX formats.
+        Automatically updates the table with the imported data.
+
+### Highlighting Selected Rows:
+ - Provides visual feedback by highlighting selected rows.
+
+### Maintaining Stripe Pattern for Rows:
+ - Alternates the background color for odd and even rows for better readability.
+
+## Potential Features
+
+### Column Reordering:
+ - Enable users to reorder columns via drag-and-drop.
+
+### Resizable Columns:
+ - Allow users to adjust the width of columns by dragging column borders.
+
+### Advanced Filtering Options:
+ - Add more filtering options like "greater than", "less than", and custom filter functions.
+
+### Multi-level Sorting:
+ - Allow sorting by multiple columns simultaneously.
+
+### Search Across All Columns:
+ - Provide a global search bar to filter data across all columns.
+
+### Customizable Themes:
+ - Add support for different themes and styles to customize the appearance of the grid.
+
+### Inline Row Addition:
+ - Allow users to add new rows directly from the grid interface.
+
+### Server-side Pagination and Filtering:
+ - Support server-side operations for better performance with extremely large datasets.
+
+### Column Aggregation and Summarization:
+ - Provide options to display aggregate data like sum, average, min, and max for numeric columns.
+
+### Row Grouping and Subtotals:
+ - Allow grouping rows by specific columns and display subtotals for each group.
+
+### Drag-and-Drop File Upload:
+ - Enable drag-and-drop file upload for importing data.
+
+### Responsive Design:
+ - Improve the grid's layout and behavior on different screen sizes and devices.
+
+### Cell Editing:
+ - Enable inline editing of individual cells rather than entire rows.
+
+### Row and Column Freezing:
+ - Allow freezing of specific rows or columns to keep them visible during scrolling.
+
+### Column Summary Rows:
+ - Add summary rows at the bottom or top of the table to display calculations like totals or averages.

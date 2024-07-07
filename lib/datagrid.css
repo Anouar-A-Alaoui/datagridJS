@@ -83,3 +83,27 @@ tr:nth-child(odd) {
 .selected-row {
     background-color: #d3f4ff !important;
 }
+
+.drag-handle {
+    cursor: grab;
+}
+
+.drag-handle {
+    cursor: grab;
+}
+
+.drag-over {
+    border: 2px dashed #000;
+}
+
+.drag-handle {
+    cursor: grab;
+}
+
+.drag-over {
+    border: 2px dashed #000;
+}
+
+.dragging {
+    opacity: 0.5;
+}
