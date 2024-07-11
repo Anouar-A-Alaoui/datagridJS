@@ -107,3 +107,21 @@ tr:nth-child(odd) {
 .dragging {
     opacity: 0.5;
 }
+
+th, td {
+    position: relative;
+}
+
+.resizer {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0; /* Extend the resizer to the bottom of the element */
+    width: 5px;
+    cursor: col-resize;
+    user-select: none;
+}
+
+.resizing {
+    border-right: 2px dashed #000 !important;
+} 

@@ -124,13 +124,13 @@ Contributions are welcome! Please submit a pull request or open an issue to disc
 ### Maintaining Stripe Pattern for Rows:
  - Alternates the background color for odd and even rows for better readability.
 
-## Potential Features
-
 ### Column Reordering:
  - Enable users to reorder columns via drag-and-drop.
 
 ### Resizable Columns:
  - Allow users to adjust the width of columns by dragging column borders.
+
+## Potential Features
 
 ### Advanced Filtering Options:
  - Add more filtering options like "greater than", "less than", and custom filter functions.
